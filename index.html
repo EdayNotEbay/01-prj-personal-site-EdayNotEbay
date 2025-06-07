@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edarius Griffin</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Material+Symbols+Outlined" rel="stylesheet">
+  <style>html { scroll-behavior: smooth; }</style>
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <div class="container">
+    <aside class="sidebar">
+      <div class="intro">
+        <h1>Edarius Griffin</h1>
+        <p class="role">Front End Developer</p>
+        <p class="bio">I build websites</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <section id="about">
+        <h2>About</h2>
+        <div class="icon-row">
+          <span class="material-symbols-outlined">person</span>
+          <span class="material-symbols-outlined">school</span>
+          <span class="material-symbols-outlined">info</span>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>Filler words for now. This will eventually contain a bio about your studies, goals, and interests. Talk about what you're learning in web dev and what tech excites you.</p>
+          </div>
+          <div>
+            <p>More text can go here to fill out the design visually. You can describe hobbies, interests, goals or anything you like. This helps replicate the 2-column text layout Brittany uses.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="icon-row">
+          <span class="material-symbols-outlined">work</span>
+          <span class="material-symbols-outlined">laptop_mac</span>
+          <span class="material-symbols-outlined">badge</span>
+        </div>
+        <div class="experience-box">
+          <div class="experience-left">
+            <p><strong>Name:</strong> Edarius Griffin</p>
+            <p><strong>Title:</strong> University of Memphis Computer Science Student</p>
+            <p>I build websites</p>
+          </div>
+          <div class="experience-right">
+            <p>I know Java, HTML, CSS, JavaScript, Python, SQL, and Ruby.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="icon-row">
+          <span class="material-symbols-outlined">code</span>
+          <span class="material-symbols-outlined">terminal</span>
+          <span class="material-symbols-outlined">lightbulb</span>
+        </div>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="https://i.imgur.com/Dt5kE7S.png" alt="Project 1" />
+            <h3>Project One</h3>
+          </div>
+          <div class="project-card">
+            <img src="https://i.imgur.com/f1HgGzT.png" alt="Project 2" />
+            <h3>Project Two</h3>
+          </div>
+          <div class="project-card">
+            <img src="https://i.imgur.com/yBR0cQ4.png" alt="Project 3" />
+            <h3>Project Three</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
+
+
+
+
