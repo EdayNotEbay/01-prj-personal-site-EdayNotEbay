@@ -129,38 +129,37 @@ h3 {
   color: var(--accent);
 }
 
-/* About */
+/* ABOUT */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  font-size: 0.95rem;
 }
 
-/* Experience */
+.about-box {
+  background-color: var(--bg-box);
+  border: 2px solid var(--white);
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+/* EXPERIENCE */
 .experience-box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   background-color: var(--bg-box);
   padding: 20px;
   border: 2px solid var(--white);
   border-radius: 6px;
 }
 
-.experience-left {
-  flex: 1 1 250px;
-  font-weight: 600;
-  color: var(--white);
-}
-
-.experience-right {
-  flex: 2 1 300px;
+.experience-skills {
+  margin-top: 20px;
   color: #c7d7ef;
-  font-weight: 500;
 }
 
-/* Projects */
+/* PROJECTS */
 .project-grid {
   display: flex;
   justify-content: center;
